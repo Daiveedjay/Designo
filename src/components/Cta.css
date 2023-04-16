@@ -1,0 +1,57 @@
+.lead--text {
+  font-size: 5rem;
+}
+
+.medium-text {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.small-text {
+  font-size: 1.8rem;
+}
+
+.smaller-text {
+  font-size: 1.4rem;
+}
+
+.section-spacing {
+  margin-bottom: 10rem;
+}
+
+.cta-section {
+  display: flex;
+  background-color: #e88069;
+  padding: 6rem 8rem;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-image: url("../assets/shared/desktop/bg-pattern-call-to-action.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  max-width: 140rem;
+  background-position: center center;
+  margin: 0 auto;
+  transform: translateY(-50%);
+}
+.cta-section > .cta-label {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.cta-section > .cta-label > h2 {
+  font-weight: 400;
+}
+.cta-section > * {
+  flex: 1;
+}
+.cta-section > .cta-button--container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.cta-section > .cta-button--container > a {
+  background: #fff;
+  font-size: 1.8rem;
+}/*# sourceMappingURL=Cta.css.map */

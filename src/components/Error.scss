@@ -1,0 +1,19 @@
+@import "../styles/variables";
+
+.error_section {
+  height: 100vh;
+  background-image: url("../assets/shared/desktop/404-page.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+
+  & .back-to-home {
+    align-self: flex-start;
+    margin-top: 5vh;
+    padding: 1rem 2rem;
+    background-color: $primary-color;
+    color: $light-color;
+  }
+}

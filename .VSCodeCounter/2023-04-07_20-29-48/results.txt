@@ -1,0 +1,116 @@
+Date : 2023-04-07 20:29:48
+Directory : c:\Users\DAVID\Desktop\Designo\src
+Total : 61 files,  749 codes, 38 comments, 95 blanks, all 882 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| SCSS       |         11 |        295 |         32 |         54 |        381 |
+| JavaScript |         12 |        229 |          6 |         34 |        269 |
+| CSS        |          6 |        119 |          0 |          4 |        123 |
+| JSON       |          1 |         73 |          0 |          2 |         75 |
+| XML        |         31 |         33 |          0 |          1 |         34 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                             | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                |         61 |        749 |         38 |         95 |        882 |
+| . (Files)                                                                                        |          7 |        153 |          3 |         20 |        176 |
+| assets                                                                                           |         31 |         33 |          0 |          1 |         34 |
+| assets\about                                                                                     |          2 |          2 |          0 |          0 |          2 |
+| assets\about\desktop                                                                             |          1 |          1 |          0 |          0 |          1 |
+| assets\about\mobile                                                                              |          1 |          1 |          0 |          0 |          1 |
+| assets\app-design                                                                                |          1 |          1 |          0 |          0 |          1 |
+| assets\app-design\desktop                                                                        |          1 |          1 |          0 |          0 |          1 |
+| assets\contact                                                                                   |          3 |          3 |          0 |          0 |          3 |
+| assets\contact\desktop                                                                           |          2 |          2 |          0 |          0 |          2 |
+| assets\contact\mobile                                                                            |          1 |          1 |          0 |          0 |          1 |
+| assets\graphic-design                                                                            |          1 |          1 |          0 |          0 |          1 |
+| assets\graphic-design\desktop                                                                    |          1 |          1 |          0 |          0 |          1 |
+| assets\home                                                                                      |          4 |          4 |          0 |          0 |          4 |
+| assets\home\desktop                                                                              |          4 |          4 |          0 |          0 |          4 |
+| assets\shared                                                                                    |         19 |         21 |          0 |          1 |         22 |
+| assets\shared\desktop                                                                            |         15 |         17 |          0 |          1 |         18 |
+| assets\shared\mobile                                                                             |          3 |          3 |          0 |          0 |          3 |
+| assets\shared\tablet                                                                             |          1 |          1 |          0 |          0 |          1 |
+| assets\web-design                                                                                |          1 |          1 |          0 |          0 |          1 |
+| assets\web-design\desktop                                                                        |          1 |          1 |          0 |          0 |          1 |
+| components                                                                                       |         15 |        331 |         27 |         48 |        406 |
+| pages                                                                                            |          6 |        213 |          7 |         20 |        240 |
+| pages\about                                                                                      |          1 |          8 |          0 |          2 |         10 |
+| pages\contact                                                                                    |          1 |          8 |          0 |          2 |         10 |
+| pages\home                                                                                       |          3 |        189 |          7 |         14 |        210 |
+| pages\locations                                                                                  |          1 |          8 |          0 |          2 |         10 |
+| styles                                                                                           |          2 |         19 |          1 |          6 |         26 |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                         | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\DAVID\Desktop\Designo\src\App.css                                                       | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\App.js                                                        | JavaScript |         40 |          3 |          8 |         51 |
+| c:\Users\DAVID\Desktop\Designo\src\App.scss                                                      | SCSS       |          3 |          0 |          1 |          4 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\about\desktop\bg-pattern-hero-about-desktop.svg        | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\about\mobile\bg-pattern-hero-about-mobile.svg          | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\app-design\desktop\bg-pattern-intro-app.svg            | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\contact\desktop\bg-pattern-hero-desktop.svg            | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\contact\desktop\icon-error.svg                         | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\contact\mobile\bg-pattern-hero-contact-mobile.svg      | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\graphic-design\desktop\bg-pattern-intro-graphic.svg    | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\home\desktop\bg-pattern-hero-home.svg                  | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\home\desktop\illustration-friendly.svg                 | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\home\desktop\illustration-passionate.svg               | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\home\desktop\illustration-resourceful.svg              | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\desktop\bg-pattern-call-to-action.svg           | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\desktop\bg-pattern-leaf-left.svg                | XML        |          3 |          0 |          1 |          4 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\desktop\bg-pattern-leaf.svg                     | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\desktop\bg-pattern-small-circle.svg             | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\desktop\bg-pattern-three-circles.svg            | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\desktop\bg-pattern-two-circles.svg              | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\desktop\icon-facebook.svg                       | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\desktop\icon-instagram.svg                      | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\desktop\icon-pinterest.svg                      | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\desktop\icon-right-arrow.svg                    | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\desktop\icon-twitter.svg                        | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\desktop\icon-youtube.svg                        | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\desktop\illustration-australia.svg              | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\desktop\illustration-canada.svg                 | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\desktop\illustration-united-kingdom.svg         | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\mobile\bg-pattern-design-pages-intro-mobile.svg | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\mobile\icon-close.svg                           | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\mobile\icon-hamburger.svg                       | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\shared\tablet\bg-pattern-design-pages-intro-tablet.svg | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\assets\web-design\desktop\bg-pattern-intro-web.svg            | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\DAVID\Desktop\Designo\src\components\Button.css                                         | CSS        |         12 |          0 |          0 |         12 |
+| c:\Users\DAVID\Desktop\Designo\src\components\Button.js                                          | JavaScript |          5 |          0 |          2 |          7 |
+| c:\Users\DAVID\Desktop\Designo\src\components\Button.scss                                        | SCSS       |         11 |          1 |          3 |         15 |
+| c:\Users\DAVID\Desktop\Designo\src\components\Cta.js                                             | JavaScript |         19 |          0 |          2 |         21 |
+| c:\Users\DAVID\Desktop\Designo\src\components\Cta.scss                                           | SCSS       |         34 |         10 |          6 |         50 |
+| c:\Users\DAVID\Desktop\Designo\src\components\Footer.js                                          | JavaScript |         44 |          0 |          3 |         47 |
+| c:\Users\DAVID\Desktop\Designo\src\components\Footer.scss                                        | SCSS       |         28 |         11 |          5 |         44 |
+| c:\Users\DAVID\Desktop\Designo\src\components\Navbar.css                                         | CSS        |         23 |          0 |          0 |         23 |
+| c:\Users\DAVID\Desktop\Designo\src\components\Navbar.js                                          | JavaScript |         17 |          1 |          4 |         22 |
+| c:\Users\DAVID\Desktop\Designo\src\components\Navbar.scss                                        | SCSS       |         24 |          2 |          5 |         31 |
+| c:\Users\DAVID\Desktop\Designo\src\components\Portfolio.css                                      | CSS        |          3 |          0 |          0 |          3 |
+| c:\Users\DAVID\Desktop\Designo\src\components\Portfolio.js                                       | JavaScript |         14 |          0 |          2 |         16 |
+| c:\Users\DAVID\Desktop\Designo\src\components\Portfolio.scss                                     | SCSS       |         47 |          1 |          7 |         55 |
+| c:\Users\DAVID\Desktop\Designo\src\components\Qualities.js                                       | JavaScript |         12 |          0 |          2 |         14 |
+| c:\Users\DAVID\Desktop\Designo\src\components\Qualities.scss                                     | SCSS       |         38 |          1 |          7 |         46 |
+| c:\Users\DAVID\Desktop\Designo\src\data.json                                                     | JSON       |         73 |          0 |          2 |         75 |
+| c:\Users\DAVID\Desktop\Designo\src\index.css                                                     | CSS        |         13 |          0 |          2 |         15 |
+| c:\Users\DAVID\Desktop\Designo\src\index.js                                                      | JavaScript |         10 |          0 |          2 |         12 |
+| c:\Users\DAVID\Desktop\Designo\src\index.scss                                                    | SCSS       |         14 |          0 |          4 |         18 |
+| c:\Users\DAVID\Desktop\Designo\src\pages\about\About.js                                          | JavaScript |          8 |          0 |          2 |         10 |
+| c:\Users\DAVID\Desktop\Designo\src\pages\contact\Contact.js                                      | JavaScript |          8 |          0 |          2 |         10 |
+| c:\Users\DAVID\Desktop\Designo\src\pages\home\Home.css                                           | CSS        |         68 |          0 |          1 |         69 |
+| c:\Users\DAVID\Desktop\Designo\src\pages\home\Home.js                                            | JavaScript |         44 |          2 |          3 |         49 |
+| c:\Users\DAVID\Desktop\Designo\src\pages\home\Home.scss                                          | SCSS       |         77 |          5 |         10 |         92 |
+| c:\Users\DAVID\Desktop\Designo\src\pages\locations\Location.js                                   | JavaScript |          8 |          0 |          2 |         10 |
+| c:\Users\DAVID\Desktop\Designo\src\styles\_utils.scss                                            | SCSS       |         16 |          0 |          5 |         21 |
+| c:\Users\DAVID\Desktop\Designo\src\styles\_variables.scss                                        | SCSS       |          3 |          1 |          1 |          5 |
+| Total                                                                                            |            |        749 |         38 |         95 |        882 |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

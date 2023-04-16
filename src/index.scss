@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap");
+@import "./styles/variables";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%; //10px per rem
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-general;
+  color: $dark-color;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: $primary-color;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-track {
+  background: #f8f8f8;
+}
+
+@media only screen and (max-width: $small-laptop) {
+  html {
+    font-size: 50%;
+  }
+}

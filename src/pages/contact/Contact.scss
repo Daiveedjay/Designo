@@ -1,0 +1,185 @@
+@import "../../styles/variables";
+
+.contact-section {
+  margin-bottom: 10rem;
+
+  .contact-field {
+    border-radius: 10px;
+    display: flex;
+    background-color: $primary-color;
+    background-image: url("../../assets/home/desktop/bg-pattern-hero-home.svg");
+    background-size: 65rem;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    gap: 4rem;
+    padding: 4rem;
+    position: relative;
+
+    @media screen and (max-width: $big-tablet) {
+      flex-direction: column;
+    }
+
+    @media screen and (max-width: $big-phone) {
+      padding: 2rem;
+      gap: 2rem;
+    }
+
+    @media screen and (max-width: $regular-phone) {
+      padding: 2rem 1rem;
+      border-radius: 0;
+    }
+
+    .contact-label__container,
+    .contact-form__container {
+      flex: 1;
+      min-height: 30rem;
+      max-height: 50rem;
+
+      @media screen and (max-width: $big-phone) {
+        min-height: 25rem;
+      }
+    }
+
+    .contact-label__container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 2rem;
+      padding: 0 2rem;
+
+      @media screen and (max-width: $big-tablet) {
+        padding: 2rem 4rem;
+      }
+
+      @media screen and (max-width: $regular-phone) {
+        padding: 2rem;
+      }
+
+      .lead--text {
+        color: $light-color;
+      }
+
+      .medium-text {
+        letter-spacing: 2px;
+        line-height: 1.5;
+        font-size: 1.6rem;
+      }
+    }
+
+    .contact-form__container {
+      @media screen and (max-width: $big-tablet) {
+        padding: 0 4rem;
+      }
+
+      @media screen and (max-width: $regular-phone) {
+        padding: 0 1rem;
+      }
+
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .contact-input {
+          padding: 1rem 2rem;
+          letter-spacing: 2.5px;
+          border: none;
+          border-bottom: 1.5px solid $light-color;
+          resize: none;
+          transition: all ease-in 0.3;
+          min-width: 80%;
+          background-color: transparent;
+          font-family: $font-general;
+          color: $light-color;
+          font-size: 1.5rem;
+
+          @media screen and (max-width: $big-tablet) {
+            min-width: 100%;
+          }
+
+          &:focus {
+            outline: none;
+            box-shadow: 2px 3px 5px rgba($dark-color, $alpha: 0.1);
+            caret-color: $light-color;
+          }
+
+          &::placeholder {
+            font-family: $font-general;
+            color: $light-color;
+            letter-spacing: 2.5px;
+            font-size: 1.5rem;
+          }
+        }
+
+        textarea.contact-input {
+          max-width: 70%;
+        }
+
+        .form-submit {
+          font-size: 1.4rem;
+          align-self: flex-end;
+          padding: 1.5rem 3rem;
+          background: none;
+
+          border: none;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          border-radius: 10px;
+          margin-top: 2.5rem;
+          background: $light-color;
+          cursor: pointer;
+          outline: 2px solid transparent;
+          transition: 0.3s all ease-in-out;
+          &:hover {
+            outline-color: $light-color;
+            background-color: transparent;
+            color: $light-color;
+          }
+        }
+      }
+    }
+
+    .contact-pop-up {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border: 2px solid black;
+      overflow: hidden;
+      border-radius: 10px;
+
+      @media screen and (max-width: $regular-phone) {
+        border-radius: 0;
+      }
+
+      .lead--text {
+        width: 50rem;
+        z-index: 3;
+        background: $light-gradient;
+        color: $primary-color;
+        border-radius: 10px;
+        padding: 2rem;
+
+        @media screen and (max-width: $regular-phone) {
+          border-radius: 0;
+        }
+      }
+
+      &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 50rem;
+        background-color: rgba($dark-color, $alpha: 0.8);
+      }
+    }
+  }
+}

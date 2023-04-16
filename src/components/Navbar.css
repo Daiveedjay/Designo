@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+}
+.navbar > a {
+  max-width: 200px;
+}
+.navbar > a > img {
+  width: 100%;
+  display: block;
+}
+.navbar > ul {
+  display: flex;
+  gap: 2.5rem;
+}
+.navbar > ul > a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #1c1b1d;
+  letter-spacing: 2px;
+}
+.navbar > .hamburger-nav {
+  display: none;
+}
+@media only screen and (max-width: 80em) {
+  .navbar > .hamburger-nav {
+    display: block;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

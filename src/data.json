@@ -1,0 +1,230 @@
+{
+  "homePage": {
+    "leadText": "Award-winning custom designs and digital branding solutions",
+    "subText": " With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.",
+    "buttonText": "Learn More",
+    "heroImage": "./assets/home/desktop/image-hero-new.png",
+    "logo-light": "./assets/shared/desktop/logo-light.png",
+    "logo-dark": "./assets/shared/desktop/logo-dark.png",
+    "route": "/about",
+
+    "portfolios": [
+      {
+        "imageSrc": "../../assets/home/desktop/image-web-design-large.jpg",
+        "leadText": "Web Design",
+        "subText": "View Projects",
+        "route": "/services/webdesign",
+        "heroText": "We build websites that serve as powerful marketing tools and bring memorable brand experiences.",
+        "projects": [
+          {
+            "imgSrc": "../../assets/web-design/desktop/image-express.jpg",
+            "projectHeader": "EXPRESS",
+            "projectDescription": "A multi-carrier shipping website for ecommerce businesses"
+          },
+          {
+            "imgSrc": "../../assets/web-design/desktop/image-transfer.jpg",
+            "projectHeader": "TRANSFER",
+            "projectDescription": "Site for low-cost money transfers and sending money within seconds"
+          },
+          {
+            "imgSrc": "../../assets/web-design/desktop/image-photon.jpg",
+            "projectHeader": "PHOTON",
+            "projectDescription": "A state-of-the-art music player with high-resolution audio and DSP effects"
+          },
+          {
+            "imgSrc": "../../assets/web-design/desktop/image-builder.jpg",
+            "projectHeader": "BUILDER",
+            "projectDescription": "Connects users with local contractors based on their location"
+          },
+          {
+            "imgSrc": "../../assets/web-design/desktop/image-blogr.jpg",
+            "projectHeader": "BLOGR",
+            "projectDescription": "Blogr is a platform for creating an online blog or publication"
+          },
+          {
+            "imgSrc": "../../assets/web-design/desktop/image-camp.jpg",
+            "projectHeader": "CAMP",
+            "projectDescription": "Get expert training in coding, data, design, and digital marketing"
+          }
+        ]
+      },
+      {
+        "imageSrc": "../../assets/home/desktop/image-app-design.jpg",
+        "leadText": "App Design",
+        "subText": "View Projects",
+        "route": "/services/appdesign",
+        "heroText": "Our mobile designs bring intuitive digital solutions to your customers right at their fingertips",
+        "projects": [
+          {
+            "imgSrc": "../../assets/app-design/desktop/image-airfilter.jpg",
+            "projectHeader": "AIRFILTER",
+            "projectDescription": "Solving the problem of poor indoor air quality by filtering the air"
+          },
+          {
+            "imgSrc": "../../assets/app-design/desktop/image-eyecam.jpg",
+            "projectHeader": "EYECAM",
+            "projectDescription": "Product that lets you edit your favorite photos and videos at any time"
+          },
+          {
+            "imgSrc": "../../assets/app-design/desktop/image-faceit.jpg",
+            "projectHeader": "FACEIT",
+            "projectDescription": "Get to meet your favorite internet superstar with the faceit app"
+          },
+          {
+            "imgSrc": "../../assets/app-design/desktop/image-todo.jpg",
+            "projectHeader": "TODO",
+            "projectDescription": "A todo app that features cloud sync with light and dark mode"
+          },
+          {
+            "imgSrc": "../../assets/app-design/desktop/image-loopstudios.jpg",
+            "projectHeader": "LOOPSTUDIOS",
+            "projectDescription": "A VR experience app made for Loopstudios"
+          }
+        ]
+      },
+      {
+        "imageSrc": "../../assets/home/desktop/image-graphic-design.jpg",
+        "leadText": "Graphic Design",
+        "subText": "View Projects",
+        "route": "/services/graphicdesign",
+        "heroText": "We deliver eye-catching branding materials that are tailored to meet your business objectives.",
+        "projects": [
+          {
+            "imgSrc": "../../assets/graphic-design/desktop/image-change.jpg",
+            "projectHeader": "TIM BROWN",
+            "projectDescription": "A book cover designed for Tim Brown's new release, 'Change'"
+          },
+          {
+            "imgSrc": "../../assets/graphic-design/desktop/image-boxed-water.jpg",
+            "projectHeader": "BOXED WATER",
+            "projectDescription": "A simple packaging concept made for Boxed Water"
+          },
+          {
+            "imgSrc": "../../assets/graphic-design/desktop/image-science.jpg",
+            "projectHeader": "SCIENCE",
+            "projectDescription": "Get to meet your favorite internet superstar with the faceit app"
+          }
+        ]
+      }
+    ],
+    "qualitiesSection": {
+      "items": [
+        {
+          "image": "./assets/home/desktop/illustration-passionate.svg",
+          "header": "PASSIONATE",
+          "description": "Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge art, design, and technology into exciting new solutions."
+        },
+        {
+          "image": "./assets/home/desktop/illustration-resourceful.svg",
+          "header": "RESOURCEFUL",
+          "description": "Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer collaboration. It guarantees superior results that fulfill our clients’ needs."
+        },
+        {
+          "image": "./assets/home/desktop/illustration-friendly.svg",
+          "header": "FRIENDLY",
+          "description": "We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we strive to give them the best experience a company can provide."
+        }
+      ]
+    },
+    "contactSection": {
+      "buttonText": "Get in Touch",
+      "route": "/contact"
+    },
+    "footerSection": {
+      "logos": [
+        {
+          "name": "facebook",
+          "src": "./assets/shared/desktop/icon-facebook.svg"
+        },
+        {
+          "name": "youtube",
+          "src": "./assets/shared/desktop/icon-youtube.svg"
+        },
+        {
+          "name": "twitter",
+          "src": "./assets/shared/desktop/icon-twitter.svg"
+        },
+        {
+          "name": "pinterest",
+          "src": "./assets/shared/desktop/icon-pinterest.svg"
+        },
+        {
+          "name": "instagram",
+          "src": "./assets/shared/desktop/icon-instagram.svg"
+        }
+      ]
+    }
+  },
+  "aboutPage": {
+    "aboutUs": {
+      "leadText": "About Us",
+      "description": "Founded in 2010, we are a creative agency that produces lasting results for our clients. We’ve partnered with many startups, corporations, and nonprofits alike to craft designs that make real impact. We’re always looking forward to creating brands, products, and digital experiences that connect with our clients’ audiences."
+    },
+    "worldClass": {
+      "leadText": "World-class talent",
+      "description_1": "We are a crew of strategists, problem-solvers, and technologists. Every design is thoughtfully crafted from concept to launch, ensuring success in its given market. We are constantly updating our skills in a myriad of platforms.",
+      "description_2": "Our team is multi-disciplinary and we are not merely interested in form — content and meaning are just as important. We give great importance to craftsmanship, service, and prompt delivery. Clients have always been impressed with our high-quality outcomes that encapsulates their brand’s story and mission."
+    },
+    "realDeal": {
+      "leadText": "The Real Deal",
+      "description_1": "As strategic partners in our clients’ businesses, we are ready to take on any challenge as our own. Solving real problems require empathy and collaboration, and we strive to bring a fresh perspective to every opportunity. We make design and technology more accessible and give you tools to measure success.",
+      "description_2": "We are visual storytellers in appealing and captivating ways. By combining business and marketing strategies, we inspire audiences to take action and drive real results."
+    },
+    "locationData": {
+      "location": [
+        {
+          "name": "Canada",
+          "src": "./assets/shared/desktop/illustration-canada.svg",
+          "buttonText": "See Location",
+          "route": "/locations",
+          "address": [
+            { "addressLoc": "Designo Central Office" },
+            { "addressLoc": "3886 Wellington Street" },
+            { "addressLoc": "Toronto, Ontario M9C 3J5" }
+          ],
+          "contact": [
+            { "contactInfo": "Contact" },
+            { "contactInfo": "M: +253-863-8967" },
+            { "contactInfo": "P: contact@designo.co" }
+          ],
+          "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.1995586386342!2d-79.39672808476332!3d43.644016279121644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d9a0737d9f%3A0xbc1ae74f23fabf4e!2sWellington%20St%20W%2C%20Toronto%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sng!4v1632567081005!5m2!1sen!2sng"
+        },
+        {
+          "name": "Australia",
+          "src": "./assets/shared/desktop/illustration-australia.svg",
+          "buttonText": "See Location",
+          "route": "/locations",
+          "address": [
+            { "addressLoc": "Designo AU Office" },
+            { "addressLoc": "19 Balonne Street " },
+            { "addressLoc": "New South Wales 2443" }
+          ],
+          "contact": [
+            { "contactInfo": "Contact" },
+            { "contactInfo": "P: (02) 6720 9092" },
+            { "contactInfo": "M: contact@designo.au" }
+          ],
+          "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.758074760467!2d149.7860512148108!3d-30.329398481779528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ba73450a680702d%3A0x44a309bd6607346e!2s19%20Balonne%20St%2C%20Narrabri%20NSW%202390%2C%20Australia!5e0!3m2!1sen!2sng!4v1632571222666!5m2!1sen!2sng"
+        },
+        {
+          "name": "United Kingdom",
+          "src": "./assets/shared/desktop/illustration-united-kingdom.svg",
+          "buttonText": "See Location",
+          "route": "/locations",
+          "address": [
+            { "addressLoc": "Designo UK Office" },
+            { "addressLoc": "13 Colorado Way" },
+            { "addressLoc": "Rhyd-y-fro SA8 9GA" }
+          ],
+          "contact": [
+            { "contactInfo": "Contact " },
+            { "contactInfo": "P: 078 3115 1400" },
+            { "contactInfo": "M: contact@designo.uk" }
+          ],
+          "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.202353138406!2d1.295836815530474!3d51.14161947957658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47debac4c78f6955%3A0xc66f33ac4fefdd41!2s13%20Colorado%20Cl%2C%20Dover%20CT16%202AY%2C%20UK!5e0!3m2!1sen!2sng!4v1632573610841!5m2!1sen!2sng"
+        }
+      ]
+    }
+  },
+  "locationPage": {}
+}

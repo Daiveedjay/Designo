@@ -1,0 +1,69 @@
+@import "../styles/variables";
+
+.locations-section {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  @media only screen and (max-width: $big-phone) {
+    gap: 5rem;
+  }
+
+  & > .location-container {
+    width: calc(30% - 2rem);
+    min-width: 300px;
+    @media only screen and (max-width: $small-phone) {
+      min-width: 200px;
+    }
+    & > .location-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+
+      & > .location-image__container {
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        @media only screen and (max-width: $regular-phone) {
+          & > .location-image {
+            max-width: 20rem;
+          }
+        }
+        //
+
+        &::after {
+          position: absolute;
+          content: "";
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: $light-gradient;
+          z-index: -1;
+          border-radius: 50%;
+        }
+      }
+      & > h2 {
+        color: $dark-color;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+      }
+
+      & > a {
+        color: $light-color;
+        background: $primary-color;
+        outline: 2px solid transparent;
+
+        &:hover {
+          outline-color: $primary-color;
+          background: transparent;
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}

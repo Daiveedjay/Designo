@@ -1,0 +1,68 @@
+@import "../styles/variables";
+
+.footer-section {
+  width: 100%;
+  background: $dark-color;
+  color: $light-color;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  @media only screen and (max-width: $regular-phone) {
+    border-radius: 0;
+  }
+
+  &__container {
+    & > .navbar {
+      & > a {
+        @media only screen and (max-width: $regular-phone) {
+          max-width: 20rem;
+        }
+      }
+      & > ul a {
+        transition: ease-in-out 0.1s all;
+        &:hover {
+          outline: 2px solid $light-color;
+        }
+      }
+      & > a {
+        padding: 2rem;
+      }
+      @media only screen and (max-width: $big-tablet) {
+        justify-content: center;
+      }
+    }
+    & > .footer-address {
+      display: flex;
+    }
+
+    & > nav a {
+      color: $light-color;
+    }
+    & > .footer-socials {
+      border-top: 1px dotted #333;
+      padding: 2rem 4rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      @media only screen and (max-width: $big-tablet) {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      gap: 4rem;
+
+      & > .footer-address,
+      .footer-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+      }
+      & > .footer-icon__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  }
+}

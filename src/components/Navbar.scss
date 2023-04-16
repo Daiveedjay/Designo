@@ -1,0 +1,133 @@
+@import "../styles/_variables.scss";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+
+  @media only screen and (max-width: $regular-phone) {
+    padding: 3rem 1rem;
+  }
+
+  & > .desktop-nav {
+    & a.active {
+      background-color: $dark-color;
+      color: $light-color;
+    }
+  }
+
+  & > a {
+    max-width: 20rem;
+    padding: 0;
+
+    @media only screen and (max-width: $regular-phone) {
+      max-width: 12.5rem;
+    }
+
+    & > img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  & > ul {
+    display: flex;
+    gap: 2rem;
+    @media only screen and (max-width: $big-tablet) {
+      display: none;
+    }
+
+    & > a {
+      text-decoration: none;
+      font-size: 1.6rem;
+      color: #1c1b1d;
+      letter-spacing: 2px;
+      transition: all ease-in-out 0.3s;
+
+      &:hover {
+        color: $light-color;
+      }
+
+      &::before,
+      &::after {
+        background-color: $primary-color;
+      }
+
+      &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 50%;
+        background-color: $dark-color;
+        border-radius: 0 0 50% 50%;
+        z-index: -1;
+        transition: all ease-in-out 0.3s;
+      }
+
+      &::after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        right: 0;
+        height: 0;
+        width: 50%;
+        border-radius: 50% 50% 0 0;
+        background-color: $dark-color;
+        z-index: -1;
+        transition: all ease-in-out 0.3s;
+      }
+
+      &:hover::after {
+        height: 190%;
+      }
+
+      &:hover::before {
+        height: 190%;
+      }
+    }
+  }
+
+  & > .hamburger-nav {
+    display: none;
+    position: relative;
+
+    .mobile-nav {
+      position: absolute;
+      top: 10rem;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      z-index: 3;
+      min-width: 30rem;
+      min-height: 20rem;
+      padding: 2rem;
+      text-align: center;
+      background: $light-color;
+      box-shadow: 2px 3px 5px rgba($color: $dark-color, $alpha: 0.2);
+
+      border-radius: 10px;
+      justify-content: space-evenly;
+      align-items: center;
+
+      & > a {
+        color: $primary-color;
+      }
+    }
+
+    .hamburger-toggle {
+      @media only screen and (max-width: $regular-phone) {
+        & > img {
+          max-width: 2.5rem;
+          height: 2rem;
+        }
+      }
+    }
+
+    @media only screen and (max-width: $big-tablet) {
+      display: block;
+    }
+  }
+}

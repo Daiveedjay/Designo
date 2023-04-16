@@ -1,0 +1,14 @@
+@import url("./styles/_variables.scss");
+
+.App {
+  padding: 0 2rem;
+  max-width: 140rem;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 37.5em) {
+    padding: 0 1rem;
+  }
+  @media only screen and (max-width: 28.125em) {
+    padding: 0;
+  }
+}

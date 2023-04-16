@@ -1,0 +1,120 @@
+@import "../../styles/variables";
+@import "../../styles/utils";
+
+.about-section {
+  margin-bottom: 15rem;
+  overflow: hidden;
+
+  & > .about-us,
+  .world-class,
+  .real-deal {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 30rem;
+    // transform: translate(100px, 0, 0);
+
+    @media only screen and (max-width: $regular-phone) {
+      border-radius: 0px;
+    }
+
+    @media only screen and (max-width: $big-tablet) {
+      flex-direction: column-reverse;
+
+      & > * {
+        flex: 1;
+        text-align: center;
+      }
+
+      @media only screen and (max-width: $big-tablet) {
+        & > .about-us-image__container,
+        .world-class-image__container,
+        .real-deal-image__container {
+          min-height: 35rem !important;
+          flex: 1.6;
+        }
+      }
+      @media only screen and (max-width: $regular-phone) {
+        & > .about-us-text__container,
+        .world-class-text__container,
+        .read-deal-text__container {
+          padding: 2rem 3rem;
+          gap: 1.5rem !important;
+        }
+      }
+    }
+
+    & > * {
+      padding: 8rem;
+
+      @media only screen and (max-width: $big-tablet) {
+        padding: 5rem;
+      }
+    }
+
+    & > .about-us-text__container,
+    .world-class-text__container,
+    .read-deal-text__container {
+      flex: 1.2;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+
+      & > h2 {
+        font-weight: 500;
+      }
+    }
+
+    & > .about-us-text__container {
+      background-color: $primary-color;
+      color: $light-color;
+      background-image: url("../../assets/about/desktop/bg-pattern-hero-about-desktop.svg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+
+    & > .world-class-text__container {
+      background-image: url("../../assets/shared/desktop/bg-pattern-two-circles.svg");
+
+      background-color: $light-gradient;
+      background-size: cover;
+      background-position: bottom center;
+      & > h2 {
+        color: $primary-color;
+      }
+    }
+    & > .read-deal-text__container {
+      background-image: url("../../assets/shared/desktop/bg-pattern-three-circles.svg");
+      background-color: $light-gradient;
+      background-size: cover;
+      background-position: bottom center;
+
+      & > h2 {
+        color: $primary-color;
+      }
+    }
+
+    & > .about-us-image__container,
+    .world-class-image__container,
+    .real-deal-image__container {
+      flex: 1;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-color: $light-gradient;
+    }
+
+    & > .about-us-image__container {
+      background-image: url("../../assets/about/desktop/image-about-hero.jpg");
+    }
+
+    & > .world-class-image__container {
+      background-image: url("../../assets/about/desktop/image-world-class-talent.jpg");
+    }
+
+    & > .real-deal-image__container {
+      background-image: url("../../assets/about/desktop/image-real-deal.jpg");
+    }
+  }
+}

@@ -1,0 +1,166 @@
+@import "../../styles/variables";
+@import "../../styles/utils";
+
+.home {
+  overflow: hidden;
+  padding: 0 2rem;
+  max-width: 140rem;
+  margin: 0 auto;
+  position: relative;
+  visibility: hidden;
+
+  @media only screen and (max-width: $regular-phone) {
+    padding: 0;
+  }
+
+  &-hero {
+    display: flex;
+    flex-direction: column;
+
+    &__section {
+      background: $primary-color
+        url("../../assets/home/desktop/bg-pattern-hero-home.svg") no-repeat
+        center right;
+      background-size: contain;
+      display: flex;
+      border-radius: 10px;
+      padding: 4rem 2rem;
+      overflow: hidden;
+
+      @media only screen and (max-width: $big-tablet) {
+        flex-direction: column;
+      }
+
+      @media only screen and (max-width: $regular-phone) {
+        border-radius: 0;
+      }
+
+      & > * {
+        flex: 1;
+        min-height: 30rem;
+      }
+
+      & > .hero-text__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem;
+        color: $light-color;
+        gap: 2rem;
+
+        @media only screen and (max-width: $big-tablet) {
+          text-align: center;
+        }
+
+        @media only screen and (max-width: $big-phone) {
+          padding: 2rem 0;
+        }
+
+        h1 {
+          line-height: 5rem;
+          font-weight: 400;
+
+          @media only screen and (max-width: $big-phone) {
+            font-weight: 500;
+            line-height: 3.5rem;
+          }
+        }
+
+        a {
+          align-self: flex-start;
+          background: $light-color;
+
+          &:hover {
+            background-color: transparent;
+            outline: 2px solid $light-color;
+            color: $light-color;
+          }
+
+          @media only screen and (max-width: $big-tablet) {
+            align-self: center;
+          }
+        }
+      }
+
+      & > .hero-image__container {
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+
+        & > .hero-image {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -30%);
+          width: 100%;
+          max-width: 35rem;
+          display: block;
+
+          @media only screen and (max-width: $big-tablet) {
+            max-width: 45rem;
+            transform: translate(-50%, -20%);
+          }
+
+          @media only screen and (max-width: $regular-phone) {
+            max-width: 35rem;
+            transform: translate(-50%, -25%);
+          }
+        }
+      }
+    }
+  }
+  & > .portfolio-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4rem;
+    min-height: 60vh;
+    max-height: 90vh;
+
+    @media only screen and (max-width: $big-tablet) {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+    }
+    a {
+      &:nth-child(1) {
+        grid-row: 1 / span 2;
+        grid-column: 1;
+      }
+
+      &:nth-child(2) {
+        grid-row: 1;
+        grid-column: 2;
+      }
+
+      &:nth-child(3) {
+        grid-row: 2;
+        grid-column: 2;
+      }
+
+      @media only screen and (max-width: $big-tablet) {
+        &:nth-child(1) {
+          grid-row: 1 / span 1;
+          grid-column: 1;
+        }
+
+        &:nth-child(2) {
+          grid-row: 2 / span 1;
+          grid-column: 1;
+        }
+
+        &:nth-child(3) {
+          grid-row: 3 / span 1;
+          grid-column: 1;
+        }
+      }
+    }
+  }
+
+  & > .qualities-section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+}

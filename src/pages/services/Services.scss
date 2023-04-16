@@ -1,0 +1,111 @@
+@import "../../styles/variables";
+
+.services-section {
+  padding: 0 2rem;
+  margin-bottom: 25rem;
+
+  @media screen and (max-width: $regular-phone) {
+    padding: 0;
+  }
+
+  .services-sub--text {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+
+  & > .services-hero {
+    padding: 6rem 2rem;
+    text-align: center;
+    background-color: $primary-color;
+    color: $light-color;
+    border-radius: 10px;
+    background-image: url("../../assets/shared/desktop/bg-pattern-two-circles.svg");
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center right;
+
+    @media screen and (max-width: $regular-phone) {
+      border-radius: 0px;
+    }
+
+    & > p {
+      max-width: 45rem;
+      margin: 0 auto;
+      letter-spacing: 3px;
+      padding: 1rem;
+    }
+  }
+
+  & > .services-project__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    column-gap: 2rem;
+    row-gap: 4rem;
+
+    & > .portfolio-item {
+      background: #f0f2f4;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      border-radius: 10px;
+      overflow: hidden;
+
+      @media screen and (max-width: $regular-phone) {
+        border-radius: 0px;
+      }
+
+      & > .portfolio-item__text {
+        padding: 2rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        & > .services-sub--text {
+          letter-spacing: 1.5px;
+          line-height: 1.8;
+        }
+      }
+
+      & > .project-img__container {
+        & > .project-img {
+          width: 100%;
+          object-fit: cover;
+          height: 30rem;
+          display: block;
+        }
+      }
+    }
+  }
+  .portfolio__container {
+    display: flex;
+    .portfolio-image__container {
+      max-height: 30rem;
+    }
+    gap: 2rem;
+
+    @media screen and (max-width: $big-tablet) {
+      flex-direction: column;
+
+      .portfolio-image__container {
+        max-height: 25rem;
+      }
+    }
+
+    @media screen and (max-width: $regular-phone) {
+      .portfolio-image__container {
+        border-radius: 0;
+      }
+    }
+
+    & > * {
+      flex: 1;
+      min-height: 15vh;
+
+      @media screen and (max-width: $regular-phone) {
+        padding: 0;
+        border-radius: 0;
+      }
+    }
+  }
+}

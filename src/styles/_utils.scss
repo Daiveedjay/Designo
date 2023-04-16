@@ -1,0 +1,38 @@
+.lead--text {
+  font-size: 5rem;
+
+  @media only screen and (max-width: $big-phone) {
+    font-size: 3rem;
+  }
+}
+
+.medium-text {
+  font-size: 3.5rem;
+  color: $light-color;
+  @media only screen and (max-width: $regular-phone) {
+    font-size: 2.5rem;
+  }
+}
+
+.small-text {
+  font-size: 1.8rem;
+  @media only screen and (max-width: $big-phone) {
+    font-size: 1.6rem;
+  }
+}
+
+.smaller-text {
+  font-size: 1.4rem;
+}
+
+.section-spacing {
+  margin-bottom: 10rem;
+
+  @media only screen and (max-width: $regular-phone) {
+    margin-bottom: 7.5rem;
+  }
+}
+
+.font-bold {
+  font-weight: 600;
+}
