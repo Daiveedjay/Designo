@@ -2,7 +2,7 @@
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 
 // Animation Libraries
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 
 // Styles
 import "./App.scss";

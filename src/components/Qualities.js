@@ -2,8 +2,6 @@ import "./Qualities.scss";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Timeline } from "gsap/gsap-core";
-import { useEffect } from "react";
 
 import { forwardRef } from "react";
 
