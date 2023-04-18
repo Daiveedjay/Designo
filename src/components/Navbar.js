@@ -55,21 +55,31 @@ export default function Navbar() {
         <span className="hamburger-toggle">
           <img src={navOpen ? Close : Hamburger} alt="" />
         </span>
-        {/* // Render the mobile navigation menu only when navOpen is true */}
-        {navOpen && (
-          <ul className="mobile-nav">
-            <NavLink to="/about" className="medium-text">
-              Our Company
-            </NavLink>
-            <NavLink to="/locations" className="medium-text">
-              Locations
-            </NavLink>
-            <NavLink to="/contact" className="medium-text">
-              Contact
-            </NavLink>
-          </ul>
-        )}
       </div>
+
+      {navOpen && (
+        <div className="mobile-background">
+          {navOpen && (
+            <ul className="mobile-nav">
+              <NavLink to="/about" className="medium-text">
+                Our Company
+              </NavLink>
+              <NavLink to="/locations" className="medium-text">
+                Locations
+              </NavLink>
+              <NavLink to="/contact" className="medium-text">
+                Contact
+              </NavLink>
+              <img
+                onClick={toggleNav}
+                src={navOpen ? Close : Hamburger}
+                alt=""
+                className="close"
+              />
+            </ul>
+          )}
+        </div>
+      )}
     </nav>
   );
 }

@@ -90,32 +90,10 @@
     }
   }
 
-  & > .hamburger-nav {
+  & .hamburger-nav {
     display: none;
     position: relative;
-
-    .mobile-nav {
-      position: absolute;
-      top: 10rem;
-      right: 20px;
-      display: flex;
-      flex-direction: column;
-      z-index: 3;
-      min-width: 30rem;
-      min-height: 20rem;
-      padding: 2rem;
-      text-align: center;
-      background: $light-color;
-      box-shadow: 2px 3px 5px rgba($color: $dark-color, $alpha: 0.2);
-
-      border-radius: 10px;
-      justify-content: space-evenly;
-      align-items: center;
-
-      & > a {
-        color: $primary-color;
-      }
-    }
+    z-index: 3;
 
     .hamburger-toggle {
       @media only screen and (max-width: $regular-phone) {
@@ -128,6 +106,58 @@
 
     @media only screen and (max-width: $big-tablet) {
       display: block;
+    }
+  }
+
+  & .mobile-background {
+    @media screen and (min-width: $big-tablet) {
+      display: none;
+    }
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba($color: $dark-color, $alpha: 0.8);
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .mobile-nav {
+      position: relative;
+      gap: 3rem;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      display: flex;
+      flex-direction: column;
+      z-index: 3;
+      min-width: 30rem;
+      min-height: 20rem;
+      padding: 2rem;
+      text-align: center;
+      background: $light-color;
+      box-shadow: 2px 3px 5px rgba($color: $dark-color, $alpha: 0.2);
+      border-radius: 10px;
+      justify-content: space-evenly;
+      align-items: center;
+      color: $primary-color;
+
+      & a {
+        color: $primary-color;
+        z-index: 4;
+      }
+
+      .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 2rem;
+        transform: translateY(-75%);
+        background: $light-color;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+      }
     }
   }
 }
